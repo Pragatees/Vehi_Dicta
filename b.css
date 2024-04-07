@@ -1,0 +1,139 @@
+h1{
+    text-align: center;
+    color: rgb(3, 0, 0);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    
+ }
+ body{
+   background-image: linear-gradient(to right,pink,rgb(236, 231, 231),skyblue);
+ }
+ body{
+   /* background-image: url('/images/background.jpeg'); */
+   background-image: linear-gradient(to right,pink,white,skyblue);
+   background-size: 100%;
+   
+ }
+ h1,h2{
+    text-align: center;
+     font-family:Georgia, 'Times New Roman', Times, serif;
+   color: rgba(238, 9, 9, 0.932);
+ }
+ p{
+   
+   font-size: x-large;
+   
+   color: rgb(0, 0, 0);
+ }
+
+ iv{
+   padding-right: 100px; 
+   text-size-adjust: 233%;
+   color :color-mix(in hsl shorter hue, color percentage, color percentage)
+ }
+ table {
+   margin-right: 4%;
+   margin-left: 5%;
+ 
+   
+   
+   border-collapse: collapse;
+   width: 90%;
+ }
+ 
+ th, td {
+   padding: 8px;
+   text-align: left;
+   border: 1px solid #ffffff00;
+   padding-top: 25px;
+   padding-bottom: 25px;
+   padding-right: 25px;
+   padding-left: 25px;
+ }
+ 
+ th {
+   background-color: #000000;
+   color: #ffffff;
+ }
+ tr:nth-child(odd) {
+  background-color: #28ff94;
+}
+ tr:nth-child(even) {
+   background-color: #28ffdb;
+ }
+ h3{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgb(0, 0, 0);
+ }
+ form {
+   display: block;
+   margin: 0 auto;
+   width: 300px; /* Adjust width as needed */
+   padding: 20px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+ }
+ 
+ label {
+   display: block;
+   margin-bottom: 5px;
+ }
+ 
+ input[type="text"], input[type="email"] ,input[type="number"] ,input[type="tel"] {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ddd;
+   border-radius: 3px;
+ }
+ 
+ input[type="submit"] {
+   display: block;
+   width: 100%;
+   padding: 10px;
+   background-color: #c2b506;
+   color: white;
+   border: none;
+   border-radius: 3px;
+   cursor: pointer;
+ }
+ .hostel-container {
+   width: 100%; /* Adjust as needed */
+   display: flex; /* Or use float: left; */
+ }
+ nav{
+   background-image: linear-gradient(red,yellow);
+ }
+ a{
+   color: red;
+   text-decoration: none;
+ }
+ s{
+  width: 250px;
+  height: 300px;
+ }
+ #bhome{
+  float: bottom;
+ }
+i{
+  font-size: 500%;
+}
+m{
+  background-color: #000000;
+
+}
+img {
+  /* Initial scale (optional, set to 1 for no initial zoom) */
+  transform: scale(1);
+
+  /* Smooth zoom transition */
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+  /* Important for touch devices: remove default pointer styles */
+  -webkit-tap-highlight-color: transparent; /* For Safari on iOS */
+  cursor: none;
+}
+
+/* Zoom on touch interaction (works on touch and click) */
+img:active,
+img:focus {
+  transform: scale(1.2); /* Adjust zoom factor as desired */
+}
